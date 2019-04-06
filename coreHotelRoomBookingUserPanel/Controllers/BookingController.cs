@@ -16,6 +16,7 @@ namespace coreHotelRoomBookingUserPanel.Controllers
     {
         coreHotelRoomBookingFinalDatabaseContext context = new coreHotelRoomBookingFinalDatabaseContext();
         [Route ("index")]
+        //index action
         public IActionResult Index()
         {
             try
